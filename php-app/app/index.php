@@ -22,6 +22,7 @@ $cities = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </head>
 <body>
     <h2>Most Populous Cities In The World</h2>
+    <h2>Most Populous Cities In The World</h2>
     <table>
     <thead>
         <tr>

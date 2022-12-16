@@ -1,0 +1,3 @@
+# Run worl.sql inside mysql conatiner 
+
+    docker-compose exec -T mysql mysql -uroot -proot world < world.sql

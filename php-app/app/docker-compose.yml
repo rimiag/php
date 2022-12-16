@@ -1,13 +1,12 @@
 version: '2'
 services:
   php:
-    image: vtserra/vultr-php
-
+    image: rimaaig/name-php
     volumes:
       - ./:/app
     working_dir: /app
   web:
-    image: vtserra/vultr-nginx
+    image: rimaaig/name-nginx:latest
     volumes:
       - ./:/app
     depends_on:
